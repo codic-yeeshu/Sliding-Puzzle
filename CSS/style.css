@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #f3f3f3;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  justify-content: center;
+  background-color: white;
+  gap: 2px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  background-color: #4caf50;
+  border-radius: 5px;
+  color: white;
+}
+.bottom {
+  display: flex;
+  gap: 20px;
+  height: auto;
+  width: auto;
+}
+.score {
+  display: flex;
+  height: 50px;
+  width: 100px;
+  background-color: aqua;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+}
